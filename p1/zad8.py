@@ -7,7 +7,8 @@ wyraz=input()
 
 #przesunięcie:
 n=13
-
+#print(wyraz)
+#print(list(wyraz))
 rob_tab=[]
 for znak in list(wyraz):
     if ord(znak) >= 97 and ord(znak) <= 123:
@@ -16,3 +17,4 @@ for znak in list(wyraz):
         rob_tab.append(znak)
         
 print(''.join(rob_tab))
+print((rob_tab))

@@ -4,6 +4,7 @@ k3:v3'''
 
 def str3dict(nap):
     l=nap.split()
+    print(l)
     d={}
     for kv in l:
         kr=kv.split(':')
